@@ -1,0 +1,10 @@
+create table account(
+	ID varchar(20) not null,
+	PW varchar(20) not null,
+	NAME varchar(20) not null,
+	GRADE int not null,
+	CLASS int not null,
+	NUMBER int not null,
+	primary key (Id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8;
+insert into 
